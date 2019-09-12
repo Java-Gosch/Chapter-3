@@ -23,9 +23,9 @@ public class CelsiusToFahrenheit {
     public static void displayConversion(double temperature, String time)
     {
         double tempConversion;
-        final double CELSIUS_TO_FAHRENHEIT = (temperature + 32) * .55;
+        final double CELSIUS_TO_FAHRENHEIT = (temperature + 32) * 5/9;
 
-        tempConversion = temperature - CELSIUS_TO_FAHRENHEIT;
+        tempConversion = CELSIUS_TO_FAHRENHEIT - temperature;
         System.out.println("In " + temperature + " Celsius, it is " + tempConversion + " in Fahrenheit at " + time);
     }
 
