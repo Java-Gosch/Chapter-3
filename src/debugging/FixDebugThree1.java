@@ -10,8 +10,9 @@ package debugging;
             System.out.println("Tips are");
             calcTip(myCheck);
             calcTip(yourCheck);
+
         }
-        public static void calcTip(int bill)
+        public static void calcTip(double bill)
         {
             final double RATE = 0.15;
             double tip;
@@ -19,5 +20,4 @@ package debugging;
             System.out.println("The tip should be at least " + tip);
         }
     }
-}
-}
+
